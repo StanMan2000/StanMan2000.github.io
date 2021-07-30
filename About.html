@@ -6,6 +6,7 @@
     <link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png">
     <link rel="manifest" href="/site.webmanifest">
     <link rel="mask-icon" href="/safari-pinned-tab.svg" color="#5bbad5">
+    
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta charset="utf-8">
     <meta name="keywords" content="Nkazi Nchinda">
@@ -14,9 +15,9 @@
     <title>About</title>
     <link rel="stylesheet" href="nicepage.css" media="screen">
 <link rel="stylesheet" href="About.css" media="screen">
-    <script class="u-script" type="text/javascript" src="jquery.js" defer=""></script>
+    <script class="u-script" type="text/javascript" src="jquery-1.9.1.min.js" defer=""></script>
     <script class="u-script" type="text/javascript" src="nicepage.js" defer=""></script>
-    <meta name="generator" content="Nicepage 3.21.3, nicepage.com">
+    <link rel="icon" href="images/favicon.png">
     <link id="u-theme-google-font" rel="stylesheet" href="https://fonts.googleapis.com/css?family=Montserrat:100,100i,200,200i,300,300i,400,400i,500,500i,600,600i,700,700i,800,800i,900,900i|Open+Sans:300,300i,400,400i,600,600i,700,700i,800,800i">
     
     
@@ -24,12 +25,77 @@
     <script type="application/ld+json">{
 		"@context": "http://schema.org",
 		"@type": "Organization",
-		"name": ""
+		"name": "stanman2000"
 }</script>
     <meta name="theme-color" content="#1c1ed5">
     <meta property="og:title" content="About">
+    <meta property="og:description" content="">
     <meta property="og:type" content="website">
-  </head>
+  <script>
+    function gdprConfirmed() {
+        return true;
+    }
+    if (gdprConfirmed()) {
+    document.write("\
+    \
+    <!-- Google Analytics -->\
+    <gascript async src=\"https://www.googletagmanager.com/gtag/js?id=G-JKK2L38VHZ\"></gascript>\
+    <gascript>\
+        window.dataLayer = window.dataLayer || [];\
+        function gtag(){dataLayer.push(arguments);}\
+        gtag('js', new Date());\
+        gtag('config', 'G-JKK2L38VHZ');\
+    </gascript>\
+    <!-- End Google Analytics -->\
+    ".replace(/gascript/g, 'script'));
+    }
+    </script><script src="https://www.google.com/recaptcha/api.js?render=6Lfu0MwbAAAAAPr2dXC0W5ecCJ-4JBChAY3kA6RF"></script>
+    <script>
+( function( grecaptcha, sitekey, actions ) {
+
+	var recaptcha = {
+
+		execute: function( action ) {
+			grecaptcha.execute(
+				sitekey,
+				{ action: action }
+			).then( function( token ) {
+				var forms = document.getElementsByTagName( 'form' );
+
+				for ( var i = 0; i < forms.length; i++ ) {
+					var fields = forms[ i ].getElementsByTagName( 'input' );
+
+					for ( var j = 0; j < fields.length; j++ ) {
+						var field = fields[ j ];
+
+						if ( 'recaptchaResponse' === field.getAttribute( 'name' ) ) {
+							field.setAttribute( 'value', token );
+							break;
+						}
+					}
+				}
+			} );
+		},
+
+		executeContact: function() {
+			recaptcha.execute( actions[ 'contact' ] );
+		}
+	};
+
+	grecaptcha.ready(
+		recaptcha.executeContact
+	);
+
+	document.addEventListener( 'change',
+		recaptcha.executeContact, false
+	);
+} )(
+	grecaptcha,
+	'6Lfu0MwbAAAAAPr2dXC0W5ecCJ-4JBChAY3kA6RF',
+	{"contact":"contact"}
+);
+    </script>
+</head>
   <body class="u-body u-stick-footer"><header class="u-clearfix u-header u-header" id="sec-a78a"><div class="u-clearfix u-sheet u-sheet-1">
         <nav class="u-menu u-menu-dropdown u-offcanvas u-menu-1">
           <div class="menu-collapse" style="font-size: 1rem; letter-spacing: 0px; font-weight: 700; text-transform: uppercase;">
